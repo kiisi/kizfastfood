@@ -1,0 +1,7 @@
+.deal-wrapper{
+    display:grid;
+    height:100%;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 40rem));
+    grid-row-gap: 5rem;
+    justify-content: space-around;
+}

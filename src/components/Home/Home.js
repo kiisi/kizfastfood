@@ -1,22 +1,21 @@
 import React from 'react'
-import Connect from './Connect/Connect'
+import Deals from './Deals/Deals'
+import Delivery from './Delivery/Delivery'
+import Feedback from './Feedback/Feedback'
 import Hero from './Hero/Hero'
-import Skills from './Skills/Skills'
-import Projects from './Projects/Projects'
-import Skillset from './Skillset/Skillset'
-import Experience from './Experience/Experience'
-import Achievements from './Achievements/Achievements'
+import Menu from './Menu/Menu'
+import Team from './Team/Team'
+
 const Home = () => {
   return (
-    <>
-        <Hero/>
-        <Skills/>
-        <Projects/>
-        <Experience/>
-        <Achievements/>
-        <Connect/>
-        <Skillset/>
-    </>
+   <section className="max-wrapper">
+      <Hero/>
+      <Deals/>
+      <Delivery/>
+      <Menu/>
+      <Feedback/>
+      <Team/>
+   </section> 
   )
 }
 

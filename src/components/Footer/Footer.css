@@ -2,22 +2,124 @@
     width:94%;
     max-width:1500px;
     display:grid;
+    grid-template-columns: 30% 40% 30%;
     height:100%;
-    place-items:center;
+    padding-bottom:2rem;
     padding-top:8rem;
 }
-.footer-social{
+.footer-main{
+    padding-right:1.5rem;
+}
+.footer-main-header{
+    padding-bottom: 3rem;
+}
+.footer-main-header h2{
+    color:#2F2F2F;
+    font-weight:700;
+    letter-spacing: 1px;
+    font-size:2.2rem;
+}
+.footer-main-header h2 span{
+    color:#F89A3A;
+}
+.footer-main-content{
+    padding-bottom: 2rem;
+}
+.footer-main-content p{
+    font-size: 1.6rem;
+    color:#9E9E9E;
+}
+.footer-main-social-links{
+    max-width:10rem;
     width: 100%;
     display:flex;
-    text-align:center;
-    justify-content: center;
-    font-size: 1.5rem;
-    color:#ddd;
+    justify-content: space-between;
+}
+.footer-navlink{
+    display:flex;
+    justify-content: space-around;
 }
 
+.footer-navlinks-header{
+    padding-bottom:3rem;
+}
+.footer-navlinks-header h1{
+    color:#2F2F2F;
+}
+.footer-navlinks-children p{
+    color:#9E9E9E;
+    padding-bottom: 1.6rem;
+    font-size:1.4rem;
+}
+.footer-navlinks-children{
+    display:grid;
+    place-items:center;
+}
+.footer-subscribe{
+    padding-left:1.5rem;
+}
+.footer-subscribe-header{
+    padding-bottom: 2.8rem;
+}
+.footer-subscribe-header h1{
+    color:#2F2F2F;
+}
+.footer-subscribe-children p{
+    color:#9E9E9E;
+    padding-bottom: 2rem;
+    font-size:1.6rem;
+}
+
+.footer-subscribe-input{
+    height:4rem;
+    width:100%;
+    max-width:40rem;
+    display:flex;
+    background:#fff;
+    border:1px solid #DD5F00;
+    border-radius: 4px;
+}
+.footer-subscribe-input input{
+    width:100%;
+    padding:0 1rem;
+    border:none;
+    background:transparent;
+    border-right:1px solid #DD5F00;
+}
+.footer-subscribe-input-send{
+    width:4rem;
+    display:grid;
+    place-items: center;
+}
 .footer-copyright{
-    padding:1rem 0;
+    padding:2rem 0;
     font-size: 1.5rem;
     text-align:center;
-    color:#ddd;
+    color:#707A8A;
+}
+@media screen and (max-width:900px){
+    .footer{
+        grid-template-columns: 50% 50%;
+        grid-row-gap:1.5rem;
+    }
+    .footer-subscribe{
+        padding-left:0;
+    }    
+}
+@media screen and (max-width:768px){
+    .footer{
+        grid-template-columns: 100%;
+        grid-row-gap:3rem;
+    }
+    .footer-navlink{
+        flex-direction:column;
+        justify-content: center;
+    }
+    .footer-navlinks-header h1{
+        display:grid;
+        place-items:center;
+    }
+    .footer-main{
+        padding-right:0;
+    }
 }

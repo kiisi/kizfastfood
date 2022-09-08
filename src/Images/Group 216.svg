@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.603" height="108.603" viewBox="0 0 108.603 108.603">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f89a3a"/>
+      <stop offset="1" stop-color="#dd5f00"/>
+    </linearGradient>
+    <filter id="Ellipse_4" x="0" y="0" width="108.603" height="108.603" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="red" flood-opacity="0.278"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_216" data-name="Group 216" transform="translate(30 24)">
+    <g transform="matrix(1, 0, 0, 1, -30, -24)" filter="url(#Ellipse_4)">
+      <ellipse id="Ellipse_4-2" data-name="Ellipse 4" cx="24.301" cy="24.301" rx="24.301" ry="24.301" transform="translate(30 24)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-shopping-basket" data-name="Icon awesome-shopping-basket" d="M20.808,8.9v.578a.867.867,0,0,1-.867.867h-.289l-.943,6.6a1.734,1.734,0,0,1-1.717,1.489H3.816A1.734,1.734,0,0,1,2.1,16.945l-.943-6.6H.867A.867.867,0,0,1,0,9.475V8.9A.867.867,0,0,1,.867,8.03H3.3l3.858-5.3a1.156,1.156,0,1,1,1.87,1.36L6.159,8.03H14.65L11.781,4.086a1.156,1.156,0,0,1,1.87-1.36l3.857,5.3h2.433A.867.867,0,0,1,20.808,8.9Zm-9.537,6.358V11.209a.867.867,0,0,0-1.734,0v4.046a.867.867,0,0,0,1.734,0Zm4.046,0V11.209a.867.867,0,0,0-1.734,0v4.046a.867.867,0,0,0,1.734,0Zm-8.092,0V11.209a.867.867,0,0,0-1.734,0v4.046a.867.867,0,0,0,1.734,0Z" transform="translate(13.501 13.951)" fill="#fff"/>
+  </g>
+</svg>

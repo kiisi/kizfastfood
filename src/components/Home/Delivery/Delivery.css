@@ -1,0 +1,70 @@
+.delivery{
+    width:94%;
+    max-width:1500px;
+    height:100%;
+    padding-top: 15rem;
+}
+.delivery-header{
+    width:100%;
+    padding-bottom:2rem;
+}
+.delivery-header *{
+    display:grid;
+    place-items: center;
+}
+.delivery-header p:first-child{
+    font-size:1.6rem;
+    color:#DD5F00;
+    font-weight: 600;
+}
+.delivery-header h1{
+    font-size: 4.5rem;
+    color: #2F2F2F;
+    text-align:center;
+}
+.delivery-header p:last-child{
+    font-size: 1.6rem;
+    color: #9E9E9E;
+    text-align:center;
+}
+
+.delivery-logistics{
+    padding:3rem 0;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.delivery-logistics-card{
+    max-width:32rem;
+    width:100%;
+    padding:2rem;
+}
+.delivery-logistics-card-img{
+    display:grid;
+    place-items:center;
+}
+.delivery-logistics-card-img img{
+    height:18.4rem;
+}
+.delivery-logistics-card-caption{
+    width:100%;
+}
+.delivery-logistics-card-caption-main{
+    display:flex;
+    justify-content:center;
+    padding:1rem 0;
+}
+.delivery-logistics-card-caption-main h1{
+    font-size:2.6rem;
+}
+.delivery-logistics-card-caption-sub{
+    text-align:center;
+    font-size:1.5rem;
+}
+
+@media screen and (max-width:768px){
+    .delivery-header h1{
+        font-size: 3.5rem;
+        color: #2F2F2F;
+    }
+}
