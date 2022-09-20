@@ -8,21 +8,17 @@ import cupcake5 from '../../../../../Images/cupcake5.jpg'
 import cupcake6 from '../../../../../Images/cupcake6.jpg'
 import cupcake7 from '../../../../../Images/cupcake7.jpg'
 
-const Image = React.memo(function Image({src}){
-    return <img src={src} alt="Cupcakes"/>
-})
-
 const CupCakeOrder = () => {
 
     return (
             <div className="menu-content-orders-content">
-                <Image src={cupcake1}/>
-                <Image src={cupcake2}/>
-                <Image src={cupcake3}/>
-                <Image src={cupcake4}/>
-                <Image src={cupcake5}/>
-                <Image src={cupcake6}/>
-                <Image src={cupcake7}/>
+                <img src={cupcake1} alt="cupcake"/>
+                <img src={cupcake2} alt="cupcake"/>
+                <img src={cupcake3} alt="cupcake"/>
+                <img src={cupcake4} alt="cupcake"/>
+                <img src={cupcake5} alt="cupcake"/>
+                <img src={cupcake6} alt="cupcake"/>
+                <img src={cupcake7} alt="cupcake"/>
             </div>
     )
 }

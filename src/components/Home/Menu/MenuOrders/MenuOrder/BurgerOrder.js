@@ -6,19 +6,16 @@ import chickenburger_b from '../../../../../Images/chicken-burger-wooden-board-t
 import burger1 from '../../../../../Images/burger1.jpg'
 import burger2 from '../../../../../Images/burger2.png'
 
-const Image = React.memo(function Image({src}){
-    return <img src={src} alt="Burgers"/>
-})
 const BurgerOrder = () => {
     
     return (
         <>
             <div className="menu-content-orders-content">
-                <Image src={chickenburger}/>
-                <Image src={chickenburger_a}/>
-                <Image src={chickenburger_b}/>
-                <Image src={burger1}/>
-                <Image src={burger2}/>
+                <img src={chickenburger} alt="burger" />
+                <img src={chickenburger_a} alt="burger" />
+                <img src={chickenburger_b} alt="burger" />
+                <img src={burger1} alt="burger" />
+                <img src={burger2} alt="burger" />
             </div>
         </>
     )
