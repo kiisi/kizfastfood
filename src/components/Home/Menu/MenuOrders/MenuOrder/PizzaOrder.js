@@ -8,19 +8,22 @@ import pizza5 from '../../../../../Images/pizza5.jpg'
 import pizza6 from '../../../../../Images/pizza6.jpg'
 import pizza7 from '../../../../../Images/pizza7.jpg'
 
-const PizzaOrder = () => {
 
-    
+const Image = React.memo(function Image({src}){
+    return <img src={src} alt="Pizza"/>
+})
+
+const PizzaOrder = () => {
 
     return (
             <div className="menu-content-orders-content">
-                <img src={pizza1} alt="pizza1"/>
-                <img src={pizza2} alt="pizza2"/>
-                <img src={pizza3} alt="pizza3"/>
-                <img src={pizza4} alt="pizza4"/>
-                <img src={pizza5} alt="pizza5"/>
-                <img src={pizza6} alt="pizza6"/>
-                <img src={pizza7} alt="pizza7"/>
+                <Image src={pizza1} />
+                <Image src={pizza2} />
+                <Image src={pizza3} />
+                <Image src={pizza4} />
+                <Image src={pizza5} />
+                <Image src={pizza6} />
+                <Image src={pizza7} />
             </div>
     )
 }

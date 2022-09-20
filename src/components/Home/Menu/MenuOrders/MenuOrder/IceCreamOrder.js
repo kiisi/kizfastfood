@@ -10,21 +10,23 @@ import icecream7 from '../../../../../Images/ice-cream7.jpg'
 import icecream8 from '../../../../../Images/ice-cream8.jpg'
 import icecream9 from '../../../../../Images/ice-cream9.png'
 
-const IceCreamOrder = () => {
+const Image = React.memo(function Image({src}){
+    return <img src={src} alt="Ice-creams"/>
+})
 
-    
+const IceCreamOrder = () => {
 
     return (
             <div className="menu-content-orders-content">
-                <img src={icecream1} alt="icecream1"/>
-                <img src={icecream2} alt="icecream2"/>
-                <img src={icecream3} alt="icecream3"/>
-                <img src={icecream4} alt="icecream4"/>
-                <img src={icecream5} alt="icecream5"/>
-                <img src={icecream6} alt="icecream6"/>
-                <img src={icecream7} alt="icecream7"/>
-                <img src={icecream8} alt="icecream8"/>
-                <img src={icecream9} alt="icecream9"/>
+                <Image src={icecream1}/>
+                <Image src={icecream2}/>
+                <Image src={icecream3}/>
+                <Image src={icecream4}/>
+                <Image src={icecream5}/>
+                <Image src={icecream6}/>
+                <Image src={icecream7}/>
+                <Image src={icecream8}/>
+                <Image src={icecream9}/>
             </div>
     )
 }

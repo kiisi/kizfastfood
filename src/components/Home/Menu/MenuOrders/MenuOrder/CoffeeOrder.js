@@ -6,17 +6,19 @@ import coffee3 from '../../../../../Images/coffee3.jpg'
 import coffee4 from '../../../../../Images/coffee4.jpg'
 import coffee5 from '../../../../../Images/coffee5.jpg'
 
-const CoffeeOrder = () => {
+const Image = React.memo(function Image({src}){
+    return <img src={src} alt="Coffees"/>
+})
 
-    
+const CoffeeOrder = () => {
 
     return (
             <div className="menu-content-orders-content">
-                <img src={coffee1} alt="coffee1"/>
-                <img src={coffee2} alt="coffee2"/>
-                <img src={coffee3} alt="coffee3"/>
-                <img src={coffee4} alt="coffee4"/>
-                <img src={coffee5} alt="coffee5"/>
+                <Image src={coffee1}/>
+                <Image src={coffee2}/>
+                <Image src={coffee3}/>
+                <Image src={coffee4}/>
+                <Image src={coffee5}/>
             </div>
     )
 }
